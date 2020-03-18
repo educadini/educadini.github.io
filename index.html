@@ -1,1 +1,103 @@
-hello world!
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- elemento raiz-->
+
+<head>
+    <!--Informações da página, cabeçalho...-->
+    <meta charset="utf-8">
+    <!--Tipo de Codificação dos Caracteres-->
+    <title> Página de Teste </title>
+    <!--Título da Página-->
+</head>
+
+<body>
+    <!--Conteúdo exibido aos usuários-->
+    <time datetime="2020-03-17">17 de Março de 2020</time>
+    <h1>Google Teste</h1>
+    <p> <strong>Título </strong>Maior </p>
+    <h2>Google Teste 2</h2>
+    <p><strong>Subtítulo</strong></p>
+    <h3>Google Teste 3</h3>
+
+    <!--Hierarquias de Títulos, vão de h1 a h6-->
+    <p><span style="font-size: 32px; margin: 21px 0;">Parágrafo formatado</span></p>
+    <!--span serve para aplicar CSS-->
+
+    <a href="https://www.google.com.br" title="Site Oficial">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"> </a>
+    <!--<a> usado para referenciar links-->
+    <p> Teste link <a href="https://google.com.br/" title="site Google"> Google</a>.
+    </p>
+
+    <!--<p> Parágrafo, texto simples-->
+    <!--<a> Adicionar um link-->
+    <p><input type="test"> <!-- disabled deixa bloqueia o campo-->
+    </p>
+    <ul>
+        <!-- ul Lista Desorndenada-->
+        <li>
+            <a href="https://gremio.net/" title="Site Oficial do Grêmio"> Grêmio</a>
+        </li>
+        <li>Caxias</li>
+        <li>Juventude</li>
+        <!--li itens dentro da lista-->
+    </ul>
+    <ol>
+        <!--Lista Ordenada-->
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ol><!-- pode-se aninhar um lista desordenada dentro de uma ordenada-->
+
+    <p>Hoje <em>não </em>está chovendo</p><!-- em Ênfase (geralmente os navegadores lêem como itálico-->
+    <p>Hoje <strong>não</strong> está chovendo</p>
+    <!--strong Ênfase (geralmente os navegdores lêem como negrito-->
+    <p>Hoje <b>não </b>está <i>chovendo</i>.</p>
+    <!--<i>Itálico, <b> Negrito, <u> Sublinhado-->
+
+    <p><a href="mailto:">Enviar email</a></p>
+    <!--Direciona para um email. Caso queira espqcificar o destinatário, digitar o email após o :-->
+    <!--Dessa forma já preenche link para o email, cc, bcc, assunto e corpo da mensagem <a href="mailto:nowhere@mozilla.org?cc=name2@rapidtables.com&bcc=name3@rapidtables.com&amp;subject=The%20subject%20of%20the%20email &amp;body=The%20body%20of%20the%20email">-->
+
+    <dl>
+        <!--lista de descrição-->
+        <dt><strong>solilóquio</strong></dt>
+        <!--termo da descrição-->
+        <dd> No drama, onde um personagem fala a si mesmo, representando seus pensamentos ou sentimentos internos e no
+            processo, transmitindo-os ao público (mas não a outros personagens).</dd>
+        <!--descrição da descrição-->
+        <dt><strong>monólogo</strong></dt>
+        <dd> No drama, onde um personagem fala seus pensamentos em voz alta para compartilhá-los com o público e com
+            outros
+            personagens presentes.</dd>
+        <dt><strong>aparte</strong></dt>
+        <dd>No drama, onde um personagem compartilha um comentário apenas com o público para efeito humorístico ou
+            dramático. Isso geralmente é um sentimento, pensamento ou parte de informação de fundo adicional.</dd>
+    </dl>
+
+    <p><abbr title="Hypertext Markup Language">HTML</abbr></p>
+    <!--Abreviação (Texto aparece colocando o mouse em cima da palavra abreviada-->
+
+    <p>Meu aniversário é 22<sup>th</sup> de Janeiro de <sub>2021</sub></p>
+    <!--Sobrescrito e Subscrito-->
+
+    <p><kbd>Cntrl+C Ctrl+V</kbd></p>
+    <!--digitação no teclado-->
+    <p><var>double totalSoma</var></p>
+    <!--Nomes de Variáveis-->
+    <p>
+        <pre>000      000     00000</pre>
+        <!--Manter os espaços maiores entre caracteres-->
+    </p>
+
+    <p>
+        <pre><code>var para = document.querySelector('p');
+
+        para.onclick = function() {
+          alert('Owww, stop poking me!');
+        }</code></pre>
+        <!--<code> Trecho de código-->
+    </p>
+</body>
+
+</html>
