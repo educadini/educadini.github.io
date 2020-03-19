@@ -1,53 +1,27 @@
-header {
-    background-image: linear-gradient(white, black);
+body {
+    background-color: rgb(229, 239, 241);
+    text-align: center;
 }
 
 h1 {
-    color: white;
-    text-align: center;
+    background-color: lightblue;
+    padding: 3mm 0 3mm 0;
+    margin: 10px;
 }
 
-p {
-    color: silver;
-}
-
-li {
-    list-style-type: square;
-}
-
-li em {
-    color: mediumpurple;
+div {
+    border: solid;
+    border-width: medium;
+    margin-left: 145mm;
+    margin-right: 145mm;
+    font: bold 1rem sans-serif;
+    padding-bottom: 5mm;
 }
 
 .special {
-    color: rgba(136, 255, 0, 0.603);
-    font-weight: bold;
-}
-
-a:link {
-    color: lightskyblue;
-}
-
-a:visited {
-    color: pink;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-footer {
-    background-image: linear-gradient(white, black);
-    text-align: right;
+    background-color: cadetblue;
+    font-size: large;
+    margin: 80mm 5mm 0mm 5mm;
     color: white;
-}
-
-figure {
-    text-align: center;
-    font-style: italic;
-    font-size: smaller;
-    text-indent: 0;
-    border: thin silver solid;
-    margin: 0.5em;
-    padding: 0.5em;
+    border: darkgreen;
 }
