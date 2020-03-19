@@ -1,0 +1,53 @@
+header {
+    background-image: linear-gradient(white, black);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: silver;
+}
+
+li {
+    list-style-type: square;
+}
+
+li em {
+    color: mediumpurple;
+}
+
+.special {
+    color: rgba(136, 255, 0, 0.603);
+    font-weight: bold;
+}
+
+a:link {
+    color: lightskyblue;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+footer {
+    background-image: linear-gradient(white, black);
+    text-align: right;
+    color: white;
+}
+
+figure {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+}
