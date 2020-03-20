@@ -1,11 +1,12 @@
 /*Tags*/
 
 body {
-    background-color: darkblue;
+    background-image: linear-gradient(rgb(3, 3, 148), rgb(7, 141, 185));
 }
 
 p {
     color: #000000;
+    text-indent: 50px;
     text-align: justify;
     font-family: Helvetica, Arial, sans-serif;
     /*vai utilizar a fonte na ordem apresentada*/
@@ -29,7 +30,7 @@ header {
 }
 
 footer {
-    /*clear: both;*/
+    clear: both;
     /*usar sempre que tiver um float na propriedade acima*/
     background-color: white;
     height: 20px;
@@ -40,12 +41,15 @@ footer {
 
 h1 {
     color: black;
+    font-style: italic;
+    text-shadow: 3px 3px 3px white;
     padding: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 {
     color: black;
+    text-shadow: 3px 3px 3px white;
     padding: 10px;
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -54,7 +58,8 @@ h2 {
 
 /*IDs*/
 
-#div_principal {
+#principal {
+    clear: both;
     text-align: center;
     min-height: 570px;
     margin: 5px 0.5%;
@@ -62,23 +67,38 @@ h2 {
     background-size: 100%;
 }
 
-
-/*#div_esquerda {
-    min-height: 200px;
+#logo {
+    /*min-height: 200px;
     width: 60%;
-    /*tamanho horizontal do elemento
+    /*tamanho horizontal do elemento*/
     float: left;
 }
 
 
-/*id da div, para propriedades exclusivas a um elemento
+/*id da div, para propriedades exclusivas a um elemento*/
 
-#div_direita {
-    min-height: 200px;
-    width: 40%;
+#menu {
+    margin-top: 40px;
     float: right;
-    /*usado para as divs ficarem lado a lado
-}*/
+    /*min-height: 200px;
+    width: 40%;
+    
+    /*usado para as divs ficarem lado a lado*/
+}
+
+#menu a {
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+#menu a:hover {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    -webkit-transition: 0.5s;
+}
 
 
 /*Class*/
@@ -86,4 +106,8 @@ h2 {
 .container {
     width: 1100px;
     margin: auto;
+}
+
+.efeito {
+    background-color: rgba(0, 0, 0, 0.1);
 }
