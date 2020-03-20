@@ -1,0 +1,89 @@
+/*Tags*/
+
+body {
+    background-color: darkblue;
+}
+
+p {
+    color: #000000;
+    text-align: justify;
+    font-family: Helvetica, Arial, sans-serif;
+    /*vai utilizar a fonte na ordem apresentada*/
+}
+
+
+/*elimina as margens padrão do navegador*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*fonte no elemento * aplica-se à página inteira*/
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    /*tamanho vertical do elemento*/
+    margin: 5px 0.5%;
+}
+
+footer {
+    /*clear: both;*/
+    /*usar sempre que tiver um float na propriedade acima*/
+    background-color: white;
+    height: 20px;
+    text-align: center;
+    margin: 5px 0.5%;
+    padding: 10px;
+}
+
+h1 {
+    color: black;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: black;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*IDs*/
+
+#div_principal {
+    text-align: center;
+    min-height: 570px;
+    margin: 5px 0.5%;
+    background-image: url(Imagens/Background1.jpg);
+    background-size: 100%;
+}
+
+
+/*#div_esquerda {
+    min-height: 200px;
+    width: 60%;
+    /*tamanho horizontal do elemento
+    float: left;
+}
+
+
+/*id da div, para propriedades exclusivas a um elemento
+
+#div_direita {
+    min-height: 200px;
+    width: 40%;
+    float: right;
+    /*usado para as divs ficarem lado a lado
+}*/
+
+
+/*Class*/
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
